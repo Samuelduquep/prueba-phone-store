@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# prueba-phone-store
+Phone Store app hecho en react
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicación hecha en create react app, 
 
-## Available Scripts
+<h1>DESCRIPCIÓN</h1>
 
-In the project directory, you can run:
+<p>Muestra una pagina principal donde realizo el llamado a la API por medio medio de FETCH, luego itero sobre el resultado con un array method .map(),
+luego al click en un resultado obtengo el id y lo envio a travez de props al componente donde se hara un llamado a la otra api que me envia los resultados de los detalles, luego muetra un selector para seleccionar un color y capacidad del producto, hay dos botones, uno para añadir al carrito y otro para ver los detalles de ese producto, al agregar al carrito se muestra un contador en la parte derecha superior de la pagina. tambien hay un buscador, donde se filtran los resultados, ya sea por marca, modelo o precio.
+Los datos de la api se guardan en local storage y se verifica si exiten en local storage para no hacer la consulta a la api (se reinicia pasada una hora).</p>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h2>🚀 Getting Started:</h2>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+En el directorio del proyecto, puede ejecutar:
 
-### `npm test`
+<h2>npm start</h2>
+Ejecuta la aplicación en el modo de desarrollo.
+Abra http://localhost:3000 para verlo en su navegador.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+La página se volverá a cargar cuando realice cambios.
+También puede ver errores de lint en la consola.
 
-### `npm run build`
+<h2>npm test</h2>
+Inicia el corredor de prueba en el modo de reloj interactivo.
+Consulte la sección sobre la ejecución de pruebas para obtener más información.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h2>npm run build</h2>
+Crea la aplicación para la producción en la build.
+Empaqueta correctamente React en modo de producción y optimiza la compilación para obtener el mejor rendimiento.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+La compilación se minimiza y los nombres de archivo incluyen los hashes.
+¡Tu aplicación está lista para ser implementada!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h2>npm run lint</h2>
+Ejecuta este comando para Comprobar el codigo.
